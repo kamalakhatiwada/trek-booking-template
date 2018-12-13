@@ -1,0 +1,51 @@
+@media(max-width: 768px) {
+  .hero {
+    height: auto !important;
+  }
+  #particles-js {
+    display: none;
+  }
+  .computer {
+    display: none !important;
+  }
+  .center-content {
+    padding: 100px 0;
+  }
+  .hero .inside-computer .img-icon {
+    display: none !important;
+  }
+  .hero .menu-bar {
+    /* position: relative !important; */
+    padding: 0;
+    background: rgba(0, 0, 0, 0.3) !important;
+    margin-bottom: 20px;
+  }
+  .hero .menu-bar .navbar-brand img {
+    max-height: 29px;
+  }
+  .hero {
+    padding: 0 0 100px 0;
+  }
+  .hero .navbar-toggler {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px;
+  }
+  .hero .navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none;
+    border: none;
+  }
+  .hero ul li {
+    float: left;
+  }
+  .hero ul li a.hero-link {
+    margin-bottom: 15px;
+  }
+  .navbar-collapse {
+    background: #000;
+    margin-top: 15px;
+  }
+  .navbar-collapse .nav-link {
+    float: left;
+  }
+}
